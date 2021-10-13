@@ -35,7 +35,7 @@ class App(QMainWindow, Ui_MainWindow):
         imagem, _ = QFileDialog.getSaveFileName(
             self.centralwidget,
             'Salvar Imagem',
-            r'C:\Users\Bruna\Pictures\Saved Pictures'
+            r'C:\Users\Public\Pictures\Saved Pictures'
         )
         self.nova_img.save(imagem, 'PNG')
 
